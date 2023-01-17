@@ -2,15 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  background: linear-gradient(89deg, #5c4de3 0%, #9237ed 100%);
+  background: linear-gradient(89deg, #5c4de3 0%, #eae1f2 100%);
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #10f4a0;
-  border-left: 1px solid rgb(25, 238, 234);
+  color: #f2f6f5;
+  border-left: 1px solid rgb(246, 248, 248);
   padding: 10px;
 }
 
@@ -54,7 +54,7 @@ textarea{
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #ebf4eb;
   color: white;
 }
 
@@ -74,28 +74,29 @@ textarea{
 .add {
   top: 1rem;
   right: 2rem;
-  background-color: #9deafb;
-  border: #10f4a0;
+  background-color: #eef4f6;
+  border: #f2f5f4;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 .note {
-  background-color: #3c0742;
+  background-color: #f8f4f9;
   box-shadow: 0 0 10px 4px rgb(180, 121, 229);
   opacity: 0.7;
+  margin-left: 0.2rem;;
 }
 
 .note .tools {
-  background-color: #852fdc;
+  background-color: #f7f3fb;
   display: flex;
   justify-content: flex-end;
   padding: 0.1rem;
 }
 
 .note .tools button {
-  background-color: #75f6f6;
+  background-color: #fbfdfd;
   color:#281f1f;
   cursor: pointer;
   font-size: 1rem;
