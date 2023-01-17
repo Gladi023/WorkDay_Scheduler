@@ -21,90 +21,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p> 
+  </header>
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p> 
-    </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-  <div>
-      <button class="add" id="add">
-      <i class="fas fa-plus">Add Item</i>
-      </div>
-      </button>
-      <div class="note">
-      <div class="tools">
-        <button class="edit"><i class="fas fa-edit"></i>
-        <button class="delete"><i class="fas fa-trash-alt"></i>
-        </button>
-      </div>
-      <div class="/"></div>
-      <textarea></textarea>
-  </div>
-  <div>
     <button class="add" id="add">
-    <i class="fas fa-plus">Add Item</i>
-    </div>
+      <i class="fas fa-plus"></i> Add note
     </button>
-    <div class="note">
-    <div class="tools">
-      <button class="edit"><i class="fas fa-edit"></i>
-      <button class="delete"><i class="fas fa-trash-alt"></i>
-      </button>
-    </div>
-    <div class="/"></div>
-    <textarea></textarea>
-</div>
-<div>
-  <button class="add" id="add">
-  <i class="fas fa-plus">Add Item</i>
-  </div>
-  </button>
-  <div class="note">
-  <div class="tools">
-    <button class="edit"><i class="fas fa-edit"></i>
-    <button class="delete"><i class="fas fa-trash-alt"></i>
-    </button>
-  </div>
-  <div class="/"></div>
-  <textarea></textarea>
-</div>
-<div>
-  <button class="add" id="add">
-  <i class="fas fa-plus">Add Item</i>
-  </div>
-  </button>
-  <div class="note">
-  <div class="tools">
-    <button class="edit"><i class="fas fa-edit"></i>
-    <button class="delete"><i class="fas fa-trash-alt"></i>
-    </button>
-  </div>
-  <div class="hidden"></div>
-  <textarea></textarea>
-</div>
-<div>
-  <button class="add" id="add">
-  <i class="fas fa-plus">Add Item</i>
-  </div>
-  </button>
-  <div class="note">
-  <div class="tools">
-    <button class="edit"><i class="fas fa-edit"></i>
-    <button class="delete"><i class="fas fa-trash-alt"></i>
-    </button>
-  </div>
-  <div class="hidden"></div>
-  <textarea></textarea>
-</div>
 
-    </div>
-    </body>
-
-   <script type="text/javascript" src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
