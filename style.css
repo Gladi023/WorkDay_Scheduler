@@ -2,14 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background: linear-gradient(89deg, #5c4de3 0%, #9237ed 100%);
 }
 
 textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #10f4a0;
+  border-left: 1px solid rgb(25, 238, 234);
   padding: 10px;
 }
 
@@ -48,7 +49,7 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #c4615b;
   color: white;
 }
 
@@ -68,4 +69,35 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.add {
+  top: 1rem;
+  right: 2rem;
+  background-color: #9deafb;
+  border: #10f4a0;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.note {
+  background-color: #3c0742;
+  box-shadow: 0 0 10px 4px rgb(180, 121, 229);
+  opacity: 0.7;
+}
+
+.note .tools {
+  background-color: #852fdc;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.1rem;
+}
+
+.note .tools button {
+  background-color: #75f6f6;
+  color:#281f1f;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
